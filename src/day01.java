@@ -1,4 +1,3 @@
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -44,7 +43,7 @@ public class day01 {
 			int score = 0;
 			reader = new BufferedReader(new FileReader(inputPath));
 			String line = reader.readLine();
-			// regex to find digits/words digits
+			// regexp to find digits/words digits
 			Pattern pattern = Pattern.compile("\\d|one|two|three|four|five|six|seven|eight|nine");
 			// read all lines
 			while (line != null) {
